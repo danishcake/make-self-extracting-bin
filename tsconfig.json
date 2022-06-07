@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    "sourceMap": true,
+    "lib": ["ES2019"],
+    "module": "commonjs",
+    "target": "ES2019"
+  },
+  "include": ["src/**/*.ts"],
+  "files": ["node_modules/jest-extended/types/index.d.ts"]
+}
