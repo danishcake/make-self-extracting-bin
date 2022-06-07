@@ -109,7 +109,7 @@ if (options.help) {
       header: 'Example usage',
       content: [
         '  npx make-self-extracting-bin \\',
-        '      --pre-extract "echo Hello"\\',
+        '      --pre-extract "echo Hello" \\',
         '      --post-extract "echo World; cat README.md" \\',
         '      --output example.sh \\',
         '      README.md'
