@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import path from 'path';
 import type { OptionDefinition } from 'command-line-usage';
 import commandLineArgs from 'command-line-args';

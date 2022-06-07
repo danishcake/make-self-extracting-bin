@@ -13,7 +13,7 @@
     "url": "https://github.com/danishcake/make-self-extracting-bin/issues"
   },
   "main": "dist/shelf.js",
-  "typings": "dist/shelf.d.ts",
+  "bin": "dist/shelf.js",
   "files": [
     "dist/**/*"
   ],

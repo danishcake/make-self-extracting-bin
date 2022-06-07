@@ -2,8 +2,8 @@
   "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
     "outDir": "dist",
-    "declaration": true,
-    "sourceMap": true,
+    "declaration": false,
+    "sourceMap": false,
     "lib": ["ES2019"],
     "module": "commonjs",
     "target": "ES2019"
