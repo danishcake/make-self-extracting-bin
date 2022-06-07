@@ -24,8 +24,7 @@
     "lint": "eslint src/**/*.ts --quiet --fix",
     "format": "prettier --write \"src/**/*.ts\"",
     "build": "tsc",
-    "prepare": "tsc",
-    "test": "jest"
+    "prepare": "tsc"
   },
   "keywords": [
     "self",
@@ -39,16 +38,12 @@
     "@tsconfig/node16": "^1.0.2",
     "@types/command-line-args": "^5.2.0",
     "@types/command-line-usage": "^5.0.2",
-    "@types/jest": "^27.5.1",
     "@types/node": "^17.0.35",
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "jest": "^28.1.0",
-    "jest-extended": "^2.0.0",
-    "ts-jest": "^28.0.2",
     "typescript": "^4.6.4"
   },
   "dependencies": {

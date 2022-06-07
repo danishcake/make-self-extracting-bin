@@ -4,8 +4,3 @@ npmnpm-cache
 
 # Packed project
 *.tgz
-
-# Example output files
-simple.sh
-run_alpine_linux.sh
-zip_format.sh
